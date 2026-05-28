@@ -1,9 +1,9 @@
-const { whenDev } = require("@craco/craco");
+const path = require('path');
 
 module.exports = {
   webpack: {
-    configure: (webpackConfig) => {
-      return webpackConfig;
+    alias: {
+      '@': path.resolve(__dirname, 'src'),
     },
   },
 };
