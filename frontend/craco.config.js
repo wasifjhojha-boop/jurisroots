@@ -6,7 +6,6 @@ module.exports = {
       '@': path.resolve(__dirname, 'src'),
     },
   },
-  // keep any existing config below, e.g. Tailwind:
   style: {
     postcss: {
       plugins: [
