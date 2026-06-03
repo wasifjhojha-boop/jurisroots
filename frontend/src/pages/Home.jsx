@@ -80,7 +80,7 @@ export default function Home() {
   return (
     <div data-testid="home-page">
       {/* HERO */}
-      <section className="bg-[#0B1F3A] text-white relative overflow-hidden" data-testid="hero-section">
+      <section className="bg-[#0b1f3a] text-white relative overflow-hidden" data-testid="hero-section">
         <div
           className="absolute inset-0 opacity-25"
           style={{
