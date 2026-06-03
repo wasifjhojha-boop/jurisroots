@@ -1,31 +1,31 @@
-import "@/App.css";
-import "@/index.css"
+import "./App.css";
+import "./index.css"
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { AuthProvider } from "@/context/AuthContext";
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
-import FloatingActions from "@/components/FloatingActions";
-import GlobalBreadcrumbs from "@/components/GlobalBreadcrumbs";
-import Home from "@/pages/Home";
-// import Services from "@/pages/Services";
-import Coverage from "@/pages/Coverage";
-import CityPage from "@/pages/CityPage";
-import Process from "@/pages/Process";
-import Documents from "@/pages/Documents";
-import FAQ from "@/pages/FAQ";
-import Contact from "@/pages/Contact";
-import Login from "@/pages/Login";
-// import Register from "@/pages/Register";
-import Dashboard from "@/pages/Dashboard";
-import CaseDetail from "@/pages/CaseDetail";
-import Admin from "@/pages/Admin";
-import Blog from "@/pages/Blog";
-import BlogPost from "@/pages/BlogPost";
-// import Reviews from "@/pages/Reviews";
-import Disclaimer from "@/components/Disclaimer";
-import ProtectedRoute from "@/components/ProtectedRoute";
-import { Toaster } from "@/components/ui/sonner";
+import { AuthProvider } from "./context/AuthContext";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import FloatingActions from "./components/FloatingActions";
+import GlobalBreadcrumbs from "./components/GlobalBreadcrumbs";
+import Home from "./pages/Home";
+// import Services from "./pages/Services";
+import Coverage from "./pages/Coverage";
+import CityPage from "./pages/CityPage";
+import Process from "./pages/Process";
+import Documents from "./pages/Documents";
+import FAQ from "./pages/FAQ";
+import Contact from "./pages/Contact";
+import Login from "./pages/Login";
+// import Register from "./pages/Register";
+import Dashboard from "./pages/Dashboard";
+import CaseDetail from "./pages/CaseDetail";
+import Admin from "./pages/Admin";
+import Blog from "./pages/Blog";
+import BlogPost from "./pages/BlogPost";
+// import Reviews from "./pages/Reviews";
+import Disclaimer from "./components/Disclaimer";
+import ProtectedRoute from "./components/ProtectedRoute";
+import { Toaster } from "./components/ui/sonner";
 
 function App() {
   return (
